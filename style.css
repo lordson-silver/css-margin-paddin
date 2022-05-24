@@ -1,41 +1,33 @@
-	.card {
-	  background: #000;
-	  color: white;
-	  width: 470px;
-	  padding: 40px;
+/* Tag Selectors */
+	a {
+		text-decoration: none;
 	}
-
-	span {
-	  color: yellow;
-	}
-
 	h1 {
 	  font-size: 24px;
 	}
-
 	p {
 	  font-size: 18px;
 	}
-
-	.contact {
-	  border: none;
-	  background-color: yellow;
-	  color: black;
-	  padding: 10px 30px 10px 30px;
+	span {
+	  color: yellow;
 	}
+	/* Class Selectors */
+.button {
+	background-color: yellow;
+	border: none;
+	color: black;
+	padding: 10px 30px 10px 30px;
+}
+.card {
+	background: #000;
+	color: white;
+	padding: 40px;
+	width: 470px;
 
+}
 	.learn {
-	  border: none;
-	  background-color: yellow;
-	  color: black;
-	  padding: 10px 30px 10px 30px;
 	  margin: 20px;
 	}
-
-	a {
-	  text-decoration: none;
-	}
-
-	#linker {
+	.linker {
 	  color: yellow;
 	}
